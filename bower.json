@@ -1,0 +1,21 @@
+{
+  "name": "repo_ripper",
+  "description": "Pulls names and descriptions from specified github user's repos",
+  "main": "gulpfile.js",
+  "authors": [
+    "Marika Allely"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
