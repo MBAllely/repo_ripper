@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/MBAllely/repo_ripper#readme",
   "devDependencies": {
-    "browserify": "^13.0.0"
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
