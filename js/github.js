@@ -2,14 +2,6 @@ var apiKey = require('./../.env').apiKey;
 var all_repos = [];
 var username = "";
 
-// exports.getRepos = function(){
-//   $.get('https://api.github.com/users/daneden?access_token=' + apiKey).then(function(response){
-//     console.log(response);
-//   }).fail(function(error){
-//     console.log(error.responseJSON.message);
-//   });
-// };
-
 exports.getInfo = function() {
   $('#getUserInfo').click(function() {
     username = $('#user_name').val();

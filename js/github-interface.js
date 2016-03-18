@@ -7,5 +7,6 @@ $(document).ready(function() {
     var username = $('#user_name').val();
     getInfo(username);
     getRepos(username);
+    console.log('first click');
   });
 });
