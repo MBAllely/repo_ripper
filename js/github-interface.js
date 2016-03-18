@@ -1,13 +1,10 @@
-var apiKey = require('./../.env').apiKey;
-var username = "";
+var getInfo = require('./../js/github.js').getInfo;
+var getRepos = require('./../js/github.js').getRepos;
 
 $(document).ready(function() {
   $('#getUserInfo').click(function() {
-    username = $('#user_name').val();
-    $.get('https://api.github.com/users/daneden?access_token=' + apiKey).then(function(response){
-      console.log(response);
-    }).fail(function(error){
-      console.log(error.responseJSON.message);
-    });
+    var username = $('#user_name').val();
+    getInfo(username);
+    getRepos(username);
   });
 });
