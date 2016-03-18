@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MBAllely/repo_ripper/issues"
   },
-  "homepage": "https://github.com/MBAllely/repo_ripper#readme"
+  "homepage": "https://github.com/MBAllely/repo_ripper#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0"
+  }
 }
