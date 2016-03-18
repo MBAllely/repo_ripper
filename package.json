@@ -1,0 +1,19 @@
+{
+  "name": "repo_ripper",
+  "version": "1.0.0",
+  "description": "Pulls names and descriptions from specified github user's repos",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBAllely/repo_ripper.git"
+  },
+  "author": "Marika Allely",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MBAllely/repo_ripper/issues"
+  },
+  "homepage": "https://github.com/MBAllely/repo_ripper#readme"
+}
