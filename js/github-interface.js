@@ -3,10 +3,10 @@ var getRepos = require('./../js/github.js').getRepos;
 
 $(document).ready(function() {
   $('#getUserInfo').click(function() {
-    event.preventDefault();
     var username = $('#user_name').val();
+    $('.showUser').text("");
+    $('.showRepos').text("");
     getInfo(username);
     getRepos(username);
-    console.log('first click');
   });
 });

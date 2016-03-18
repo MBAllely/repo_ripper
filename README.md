@@ -39,8 +39,6 @@ _The project was put together using node.js, bower, and gulp._
 
 _This application is not fully designed and may have unknown bugs._
 
-_The program does not run on the first click.  It runs as expected on the second click, then runs twice on the third click.  No idea what that's about.  Also the html formatting is a little funky._
-
 _Program can only return the first hundred repos from a gitHub user.  Will look into pagination for the future._
 
 ## Support and contact details
