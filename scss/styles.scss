@@ -1,13 +1,23 @@
 $gray : #d3d3d3;
 
+body {
+  // background-image: url('http://previews.123rf.com/images/kayros/kayros1010/kayros101000698/7981761-Close-up-of-natural-burlap-hessian-sacking-Background-texture-using-burlap-material--Stock-Photo.jpg');
+}
 .box {
   background: $gray;
   border: 3px solid black;
+  border-radius: 25px;
   padding: 40px 80px;
+
   .button {
     font-weight: bold;
     text-align: center;
     background: red;
     color: white;
   }
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url('http://previews.123rf.com/images/trgowanlock/trgowanlock1412/trgowanlock141201488/34880459-Torn-fabric-as-a-background-Stock-Photo.jpg')
 }

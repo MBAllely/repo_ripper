@@ -30,17 +30,19 @@ exports.getInfo = function() {
 };
 
 exports.getRepos = function(username) {
-  $.get('https://api.github.com/users/' + username + '/repos?access_token=' + apiKey).then(function(response) {
-    console.log(response);
-    response.forEach(function(repo, index) {
-      if (repo.private === false) {
-        $('.showRepos').prepend(
-          "<li>" + repo.name + ": " + repo.description + "</li>"
-        );
-      }
-    });
+  $('#getUserInfo').click(function() {
+    $.get('https://api.github.com/users/' + username + '/repos?access_token=' + apiKey + '&sort=created&per_page=100').then(function(response) {
+      console.log(response);
+      response.forEach(function(repo, index) {
+        if (repo.private === false) {
+          $('.showRepos').prepend(
+            "<li><strong>" + repo.name + "</strong>" +  "<br>" + "\t<strong>description: </strong>" + repo.description + "</li>"
+          );
+        }
+      });
 
-  }).fail(function(error) {
-    console.log(error.responseJSON.message);
+    }).fail(function(error) {
+      console.log(error.responseJSON.message);
+    });
   });
 };
