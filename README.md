@@ -50,6 +50,7 @@ _If you have any questions, concerns, or feedback, please contact the authors th
 * _This project was built on [Node.js](https://nodejs.org/en/)._
 * _Dependencies were handled with [npm](https://www.npmjs.com/) and [Bower](http://bower.io/)._
 * _[Gulp](http://gulpjs.com/) is an awesome asset pipeline used in this project._
+* _[Github API](https://developer.github.com/v3/)
 
 ### License
 
