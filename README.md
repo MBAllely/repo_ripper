@@ -1,4 +1,4 @@
-# _Project Title_
+# _Repo Ripper_
 
 #### _A simple API web app, 3.18.2016_
 
@@ -26,14 +26,14 @@ _The project was put together using node.js, bower, and gulp._
 * After cloning the repo, you will need to install dependencies...
 
 
-    npm install
-    bower install
+    *npm install
+    *bower install
 
 * Gulp is used to handle both building the site and launching a server to host the site...
 
 
-    gulp build
-    gulp serve
+    *gulp build
+    *gulp serve
 
 ## Known Bugs
 
